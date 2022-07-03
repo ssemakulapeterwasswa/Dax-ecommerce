@@ -1,0 +1,32 @@
+
+.navbody{
+    background-color: rgb(205, 252, 252);
+    margin: auto;
+    display:flex;
+
+}
+.subtitle.h4
+{
+    text-align: center;
+}
+
+.mynav{
+    background-color:white;
+}
+.mynav ul{
+    border:5px;
+}
+.navbody .mynav ul li{
+    margin: 10px 0px;
+    list-style: none;
+    list-style: none;
+}
+.mynav ul li a{
+    font-size: 30;
+    text-decoration: none;
+    color: black;
+}
+.mynav ul li a:hover{
+    color:white;
+    background-color: rgb(198, 193, 245);
+}
