@@ -9,7 +9,19 @@
 {
     text-align: center;
 }
+#listedit span{
+    color: black;
+}
+#listedit ul li a{
+    color:black;
+}
+#listedit2 ul li a{
+    /*background-color:rgb(255, 251, 240);*/
 
+}
+#listed2 ul li a:hover{
+    background-color:aqua;
+}
 .mynav{
     background-color:white;
 }
