@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="./line/icon-font/lineicons.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <label class="logo">DAX-platform</label>
+        <ul>
+          <li><a clas="action" href="#">Home</a></li>
+          <li><a href="#">DEALS</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Seller</a></li>
+          <li>
+            <a href="#"><i class="lni lni-cart"></i>Cart</a>
+          </li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="cont">
+      <!--<h1 class="text-3xl font-bold underline">Hello world!</h1>-->
+      <section id="signup-form">
+        <form action="" class="Sign_up">
+          <h2 class="title">SignUp</h2>
+          <p>Already have an account? <a href="index.html">Login </a></p>
+          <div class="input_field">
+            <label>FirstName</label>
+            <div class="input">
+              <input type="text" name="fname" />
+            </div>
+          </div>
+          <div class="input_field">
+            <label>LastName</label>
+            <div class="input">
+              <input type="text" name="lname" />
+            </div>
+          </div>
+          <div class="input_field">
+            <label>Email</label>
+            <div class="input">
+              <input type="text" name="email" />
+            </div>
+          </div>
+          <div class="input_field">
+            <label>TelephoneNumber</label>
+            <div class="input">
+              <input type="text" name="tel" />
+            </div>
+          </div>
+          <div class="input_field">
+            <label>Type Of Account</label>
+            <div class="input">
+              <select name="type">
+                <option>Seller</option>
+                <option>Buyer</option>
+              </select>
+            </div>
+          </div>
+          <div class="input_field">
+            <label>Password</label>
+            <div class="input"><input type="text" name="pswd" /></div>
+          </div>
+          <div class="input_field">
+            <label>ConfirmPassword</label>
+            <div class="input"><input type="text" name="cpswd" /></div>
+          </div>
+
+          <input type="submit" value="Submit" class="button_solid" />
+        </form>
+      </section>
+    </div>
+    <footer class="flex">
+      <div class="wrapper">&copy;</div>
+      <div class="footer-nav flex">
+        <p>2022 Dax-platform.</p>
+        <p>All rights Reserved.</p>
+        <p>Developed by Aljem</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+.sec-1 form {
+  width: 100%;
+  padding: 25px 10% 25px 40%;
+}
+
+.sec-1 form .input {
+  position: relative;
+  padding: 0 20px;
+  width: 90%;
+}
+
+.sec-1 form .input input {
+  border-radius: 12px;
+}
+
+.sec-1 form .input i {
+  position: absolute;
+  top: 8px;
+  left: 23px;
+  font-weight: bolder;
+}
+
+.sec-1 form button {
+  height: 24px;
+  background-color: #ffa705;
+  font-weight: bolder;
+}
+nav {
+  justify-content: space-between;
+  padding: 8px 40px;
+  background-color: #f1ad2d;
+  border-radius: none;
+}
+
+nav .logo {
+  padding: 4px 8px;
+  background-color: #fff;
+}
+
+nav .nav-links {
+  padding: 3px 30px;
+}
+
+nav .nav-links .nav-link {
+  margin: 0 20px;
+}
+
+nav .nav-links ul {
+  padding: 0 20px;
+}
+
+nav .nav-links ul .nav-link a {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+nav .nav-links .side-nav {
+  padding: 0 35px 0 15px;
+}
+
+nav .nav-links .side-nav .nav-icons {
+  padding: 0 20px;
+}
+
+nav .nav-links .side-nav .nav-icons i {
+  margin: 0 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.sec-3 .nav-btns .btn {
+  background-color: #dddddd;
+  padding: 4px 15px;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+}
+
+.sec-3 .nav-btns .btn.prev-btn {
+  left: 30px;
+}
+
+.sec-3 .nav-btns .btn.next-btn {
+  right: 30px;
+}
+.flex {
+  display: flex;
+}
+footer {
+  justify-content: space-between;
+  padding: 20px 25px 20px 100px;
+}
+
+footer .footer-nav p {
+  margin: 0 20px;
+}
