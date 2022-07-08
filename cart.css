@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  padding: 2px 15px;
+  border-radius: 20px;
+}
+
+.grd {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.grd.grd-cl-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+body {
+  background: rgb(201, 251, 234);
+  /* padding: 32px; */
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+/*navigation*/
+nav {
+  background-color: #fe6f02;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: black;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bolder;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a.action,
+a:hover {
+  background: white;
+  transition: 0.5s;
+}
+
+.sec-1 form {
+  width: 100%;
+  padding: 25px 10% 25px 30%;
+}
+
+.sec-1 form {
+  width: 100%;
+  padding: 25px 10% 25px 30%;
+}
+
+.sec-1 form .input {
+  position: relative;
+  padding: 0 20px;
+  width: 85%;
+}
+
+.sec-1 form .input input {
+  border-radius: 12px;
+}
+
+.sec-1 form .input i {
+  position: absolute;
+  top: 8px;
+  left: 23px;
+  font-weight: bolder;
+}
+
+.sec-1 form button {
+  height: 24px;
+  background-color: #fe6f02;
+  font-weight: bolder;
+}
+
+section {
+  padding: 0 30px;
+}
+
+.sec-2 {
+  background: #fff;
+  padding: 30px 70px;
+  margin: 0 30px;
+}
+
+.sec-2 .wrapper:nth-child(1) {
+  width: 40%;
+}
+
+.sec-2 .wrapper:nth-child(2) {
+  width: 60%;
+  padding: 35px 30px;
+}
+
+.sec-2 .wrapper img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sec-2 .wrapper:nth-child(1) .wrapper {
+  padding: 10px 15px;
+  margin: 10px 0;
+  background: #b4b4b4;
+  width: 100%;
+}
+
+.sec-2 .wrapper:nth-child(1) .wrapper .flex {
+  padding: 5px 0;
+}
+
+.sec-2 .wrapper:nth-child(1) .wrapper .flex i {
+  margin: 0 15px 0 0;
+  font-weight: bolder;
+}
+
+.sec-2 .wrapper:nth-child(2) h5.hdr {
+  padding: 5px;
+  background: #000;
+  color: #fe6f02;
+  margin: 5px 10px;
+  width: 120px;
+}
+
+.sec-2 .wrapper:nth-child(2) h3,
+.sec-2 .wrapper:nth-child(2) p {
+  margin: 10px 0;
+}
+
+.sec-2 .wrapper:nth-child(2) .rating {
+  padding: 15px 0;
+}
+
+.sec-2 .wrapper:nth-child(2) .rating i {
+  color: #fe6f02;
+  font-size: 20px;
+}
+
+.sec-2 .wrapper:nth-child(2) h5.price,
+.sec-2 .wrapper:nth-child(2) h5.shipping-price {
+  margin: 10px 0;
+}
+
+.sec-2 .wrapper:nth-child(2) .quantity-wrapper {
+  padding: 10px 0;
+}
+
+.sec-2 .wrapper:nth-child(2) .quantity-wrapper input {
+  width: 10%;
+  background: #b4b4b4;
+  font-size: 12px;
+  padding: 3px 5px;
+  margin: 0 15px;
+}
+
+.sec-2 .wrapper:nth-child(2) .quantity-wrapper i {
+  font-size: 21px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.sec-2 .wrapper:nth-child(2) .quantity-wrapper p {
+  margin: 0 10px;
+}
+
+.sec-3 {
+  background: #fff;
+  padding: 20px 40px 30px 0;
+  margin: 10px 30px;
+}
+
+.sec-3 h3 {
+  margin: 3px 0 3px 30px;
+}
+
+.sec-3 .cart-sum-wrapper {
+  padding: 10px 35% 20px 25px;
+  justify-content: space-between;
+}
+
+.sec-3 button {
+  padding: 8px 60px;
+  background-color: #fe6f02;
+  border-radius: 20px;
+  margin: 0 0 0 20%;
+  cursor: pointer;
+}
+
+footer {
+  justify-content: space-between;
+  padding: 20px 25px 20px 100px;
+}
+
+footer .footer-nav p {
+  margin: 0 20px;
+}

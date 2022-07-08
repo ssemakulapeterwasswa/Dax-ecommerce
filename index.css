@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  padding: 2px 15px;
+  border-radius: 20px;
+}
+
+.grd {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.grd.grd-cl-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+body {
+  background: rgb(207, 252, 240);
+  /* padding: 32px; */
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+/*navigation*/
+nav {
+  background-color: #fe6f02;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: black;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bolder;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+a.action,
+a:hover {
+  background: white;
+  transition: 0.5s;
+}
+
+.sec-1 form {
+  width: 100%;
+  padding: 25px 10% 25px 30%;
+}
+
+.sec-1 form .input {
+  position: relative;
+  padding: 0 20px;
+  width: 85%;
+}
+
+.sec-1 form .input input {
+  border-radius: 12px;
+}
+
+.sec-1 form .input i {
+  position: absolute;
+  top: 8px;
+  left: 23px;
+  font-weight: bolder;
+}
+
+.sec-1 form button {
+  height: 24px;
+  background-color: #fe6f02;
+  font-weight: bolder;
+}
+
+section {
+  padding: 0 30px;
+}
+
+.sec-2 {
+  margin: 0 0 10px 0;
+}
+
+.sec-2 .category-container {
+  width: 20%;
+  background: #fff;
+  margin: 0 13px 0 0;
+}
+
+.sec-2 .category-container h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sec-2 .category-container ul li {
+  padding: 7px 12px;
+}
+
+.sec-2 .category-container ul li .icon {
+  width: 20%;
+}
+
+.sec-2 .category-container ul li .icon i {
+  font-weight: bolder;
+}
+
+.sec-2 .category-container ul li i.btn {
+  background: #dddddd;
+  padding: 2px 7px;
+  font-size: 13px;
+}
+
+.sec-2 .banner-container {
+  width: 80%;
+  position: relative;
+  height: 450px;
+}
+
+.sec-2 .banner-container .img {
+  height: 100%;
+  width: 100%;
+  background-image: url("./dist/images/banner.jpg");
+  background-size: cover;
+  animation: 20s slider infinite;
+}
+
+.sec-2 .banner-container .banner-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #f1ad2d;
+  background: #fff;
+  width: 150px;
+}
+
+.sec-3 {
+  background: #fff;
+  padding: 25px 20px 45px 20px;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+
+.sec-3 .flex {
+  padding: 0 50px;
+}
+
+.sec-3 .flex div {
+  width: 15%;
+  height: 70px;
+  margin: 0 20px;
+}
+
+.sec-3 .flex div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.sec-3 .nav-btns .btn {
+  background-color: #dddddd;
+  padding: 4px 15px;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+}
+
+.sec-3 .nav-btns .btn.prev-btn {
+  left: 30px;
+}
+
+.sec-3 .nav-btns .btn.next-btn {
+  right: 30px;
+}
+
+.sec-4 {
+  background: #fff;
+  padding: 20px 40px 0 40px;
+  margin: 0 0 10px 0;
+}
+
+.sec-4 .card {
+  height: 300px;
+}
+
+.sec-4 .card .card-img {
+  height: 60%;
+}
+
+.sec-4 .card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec-4 .card .card-text {
+  padding: 8px 0 0 0;
+  height: 40%;
+}
+
+.sec-4 .card .card-text h5 {
+  padding: 3px 8px;
+  background: #f1ad2d;
+}
+
+.sec-4 .card .card-text a {
+  margin: 0 40%;
+}
+
+footer {
+  justify-content: space-between;
+  padding: 20px 25px 20px 100px;
+}
+
+footer .footer-nav p {
+  margin: 0 20px;
+}
+
+@keyframes slider {
+  0% {
+    background: url("./dist/images/banner.jpg");
+    background-size: cover;
+  }
+  25% {
+    background: url("./dist/images/banner2.jpg");
+    background-size: cover;
+  }
+  50% {
+    background: url("./dist/images/banner.jpg");
+    background-size: cover;
+  }
+  75% {
+    background: url("./dist/images/finalz.jpg");
+    background-size: cover;
+  }
+  100% {
+    background: url("./dist/images/FS4.jpg");
+    background-size: cover;
+  }
+}

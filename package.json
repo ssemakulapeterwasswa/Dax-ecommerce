@@ -1,0 +1,23 @@
+{
+  "name": "front_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssemakulapeterwasswa/Dax-ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssemakulapeterwasswa/Dax-ecommerce/issues"
+  },
+  "homepage": "https://github.com/ssemakulapeterwasswa/Dax-ecommerce#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
